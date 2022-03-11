@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#fff" />
+    <link rel="stylesheet" href="style3.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="logo.png">
+    <link rel="icon" type="image/x-icon" href="logo4.png">
+    <meta name=apple-mobile-web-app-status-bar-style content=#008000>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GARDE PHARMINFO DJERBA</title>
+    <script>
+        window.addEventListener('load', () => {
+            if ("serviceWorker" in navigator) {
+                navigator.serviceWorker.register('sw.js');
+            }
+        })
+    </script>
+</head>
+
+<body onload="translate()">
+    <section class="container">
+        <div class="circle2"></div>
+        <div class="circle1"></div>
+        <div class="circle"></div>
+        <a href="asslem.html"><img src="logo.png" alt="" class="logo"></a>
+        <h1 class="grand_titre">GARDE PHARMINFO DJERBA</h1>
+        <div class="box">
+            <div class="box1"><a href="index3.html" class="liste1">EL MAY</a></div>
+            <div class="box1"> <a href="indexm.html" class="liste1">Midoune</a></div>
+            <div class="box1"> <a href="indexs.html" class="liste1">HOUMT SOUK</a></div>
+            <div class="box1"> <a href="index6.html" class="liste1">AJIM</a></div>
+        </div>
+    </section>
+    <script src="elmay.js"></script>
+</body>
+
+</html>

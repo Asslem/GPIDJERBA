@@ -1,0 +1,22 @@
+{
+    "name": "GARDE PHARMINFO DJERBA",
+    "short_name": "GPI DJERBA",
+    "start_url": "/?source=pwa",
+    "display": "standalone",
+    "theme_color": "#fff",
+    "background_color": "#fff",
+    "icons": [
+        {
+            "src":"logo5.png",
+            "sizes":"623x623",
+            "type":"image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src":"logo11.jpg",
+            "sizes":"1080x1080",
+            "type":"image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
